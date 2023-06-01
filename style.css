@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#bar {
+    width: calc(100% - 20px);
+    padding: 10px;
+    height: 50px;
+    position: fixed;
+    z-index: 10;
+    background: rgba(228, 79, 79, 0.929);
+    top: 0;
+}
+
+#bar img {
+    height: 50px;
+}
+
+#bar #link {
+    color: white;
+    line-height: 50px;
+    width: 150px;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    font-size: 25px;
+    transition: .3s all;
+    font-family: 'Bebas Neue';
+}
+
+#bar #link:hover {
+    letter-spacing: 4px;
+}
+
+#section1 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+#section1 h1 {
+    color: white;
+    font-size: 7vw;
+    margin-top: 70px;
+    font-family: 'Inter';
+}
+
+#section1 h3 {
+    color: antiquewhite;
+    font-size: 4vw;
+    margin-bottom: 20px;
+    font-family: 'IM Fell Great Primer';
+}
+
+.headings {
+    color: rgb(86, 71, 71);
+    font-family: 'IM Fell Great Primer';
+    padding: 0px 10px;
+}
+
+.text {
+    font-family: 'Inter';
+    padding: 10px;
+    text-align: justify;
+}
+
+.imgWtxt {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: auto;
+}
+
+.imgWtxt img {
+    width: 300px;
+}
+
+.imgWtxt img:nth-of-type(1) {
+    aspect-ratio: 3/2;
+}
+
+
+#footer {
+    width: 100%;
+    background: rgb(237, 125, 125);
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+}
+
+#footer img {
+    height: 50px;
+    margin: 10px;
+}
+
+#footer h4 {
+    background-color: rgb(144, 62, 62);
+    color: white;
+    width: calc(100% - 20px);
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+@media only screen and (max-width: 850px) {
+    .imgWtxt {
+        display: block;
+        text-align: center;
+    }
+  }
+
+#section2 {
+    width: calc(100% - 60px);
+    height: 400px;
+    text-align: center;
+    margin-top: 90px;
+    padding: 30px;
+}
+
+#section2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid rgb(209, 188, 65);
+}
